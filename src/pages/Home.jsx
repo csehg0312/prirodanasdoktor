@@ -1,5 +1,5 @@
 import { createEffect, onMount, createSignal } from 'solid-js';
-import seo from '../aboutme.js';
+import seo from '../js/aboutme.js';
 import Navbar from './Navbar.jsx';
 import icon from '../assets/images/icon.jpg';
 import Footer from '../components/Footer.jsx';
@@ -60,7 +60,10 @@ function HomePage() {
 
         <section class="w-full bg-vreamyWhite px-4 py-32 h-full">
           <div class="max-w-6xl mx-auto">
-            <h3 class="text-xl font-semibold mb-4">Služby</h3>
+            <h3 class="text-xl font-semibold mb-4"><a href='/sluzby'>
+                Služby
+              </a>
+              </h3>
             <p class="text-sm text-gray-700">
               Ponúkam individuálne prispôsobené liečebné terapie, využívajúc starodávne techniky čínskej medicíny a ajurvédy. Moje služby sú navrhnuté tak, aby riešili rôzne zdravotné problémy, od posilnenia imunity až po chronické ochorenia.
             </p>
@@ -69,7 +72,11 @@ function HomePage() {
 
         <section class="w-full bg-softBrown px-4 py-32">
           <div class="max-w-6xl mx-auto">
-            <h3 class="text-xl font-semibold mb-4">Produkty</h3>
+            <h3 class="text-xl font-semibold mb-4">
+              <a href='/produkty'>
+                Produkty
+              </a>
+              </h3>
             <p class="text-sm text-gray-700">
               Na mojej stránke nájdete aj vysoko kvalitné produkty od spoločností Energy a Essens. Tieto výrobky sú vytvorené na podporu zdravia a rovnováhy, a ich účinnosť je overená dlhoročnými skúsenosťami.
             </p>
