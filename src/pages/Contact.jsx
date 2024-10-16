@@ -1,4 +1,4 @@
-function Products() {
+function Contact() {
     return(
         <div class="bg-yellowish">
             <h1>Kontakt</h1>
@@ -6,4 +6,4 @@ function Products() {
     );
 }
 
-export default Products;
+export default Contact;
